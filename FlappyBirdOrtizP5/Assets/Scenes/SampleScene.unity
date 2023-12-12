@@ -311,6 +311,7 @@ GameObject:
   - component: {fileID: 1403881988}
   - component: {fileID: 1403881987}
   - component: {fileID: 1403881990}
+  - component: {fileID: 1403881991}
   m_Layer: 0
   m_Name: pixilart-drawing
   m_TagString: Untagged
@@ -383,8 +384,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -360023775
-  m_SortingLayer: 3
+  m_SortingLayerID: -1477121903
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 79ec644bd2ff81c41979495196059c17, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -405,7 +406,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1403881986}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.2216, y: -1.0532, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
@@ -472,6 +473,19 @@ PolygonCollider2D:
       - {x: -0.16862102, y: 0.23641801}
       - {x: -0.19683628, y: 0.23703231}
   m_UseDelaunayMesh: 0
+--- !u!114 &1403881991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403881986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b1afd945eca3ba46a10794883f2ab91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upForce: 200
 --- !u!1 &2076786661
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,7 +604,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1.2971501}
+  m_Offset: {x: 0, y: -1.3616831}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -601,7 +615,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 20.48, y: 2.5256996}
+  m_Size: {x: 20.48, y: 2.3966336}
   m_EdgeRadius: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
