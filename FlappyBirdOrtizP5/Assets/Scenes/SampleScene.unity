@@ -312,6 +312,7 @@ GameObject:
   - component: {fileID: 1403881987}
   - component: {fileID: 1403881990}
   - component: {fileID: 1403881991}
+  - component: {fileID: 1403881992}
   m_Layer: 0
   m_Name: pixilart-drawing
   m_TagString: Untagged
@@ -457,21 +458,41 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.19688195, y: 0.21910435}
-      - {x: -0.15753393, y: 0.18356916}
-      - {x: -0.051806755, y: 0.18563972}
-      - {x: -0.055330902, y: 0.19299395}
-      - {x: -0.023992822, y: 0.19655971}
-      - {x: -0.024240887, y: 0.2316719}
-      - {x: -0.058815304, y: 0.2327717}
-      - {x: -0.07559556, y: 0.25252184}
-      - {x: -0.092357814, y: 0.27256063}
-      - {x: -0.11737047, y: 0.28543404}
-      - {x: -0.13875812, y: 0.26760912}
-      - {x: -0.14174469, y: 0.24729925}
-      - {x: -0.11660057, y: 0.21719389}
-      - {x: -0.16862102, y: 0.23641801}
-      - {x: -0.19683628, y: 0.23703231}
+    - - {x: -0.19374827, y: 0.21548854}
+      - {x: -0.16972254, y: 0.21269955}
+      - {x: -0.14651746, y: 0.1867167}
+      - {x: -0.05954818, y: 0.1921343}
+      - {x: -0.059542377, y: 0.19940266}
+      - {x: -0.03235409, y: 0.20078614}
+      - {x: -0.033150777, y: 0.22591655}
+      - {x: -0.064657286, y: 0.22534245}
+      - {x: -0.065821975, y: 0.23472753}
+      - {x: -0.075295046, y: 0.23553969}
+      - {x: -0.075029135, y: 0.2455703}
+      - {x: -0.0836362, y: 0.2460024}
+      - {x: -0.08525658, y: 0.25578612}
+      - {x: -0.09431567, y: 0.25505722}
+      - {x: -0.09667444, y: 0.26595712}
+      - {x: -0.10380681, y: 0.2646775}
+      - {x: -0.10555445, y: 0.27700502}
+      - {x: -0.12626502, y: 0.27544272}
+      - {x: -0.12821522, y: 0.26745653}
+      - {x: -0.13490124, y: 0.26760912}
+      - {x: -0.1355909, y: 0.24389675}
+      - {x: -0.12671596, y: 0.24389708}
+      - {x: -0.12569201, y: 0.23391438}
+      - {x: -0.11724298, y: 0.2337505}
+      - {x: -0.11686826, y: 0.2243343}
+      - {x: -0.105271064, y: 0.22394338}
+      - {x: -0.10573745, y: 0.21471362}
+      - {x: -0.12630683, y: 0.21683657}
+      - {x: -0.1296044, y: 0.2170586}
+      - {x: -0.14446162, y: 0.2172838}
+      - {x: -0.15613477, y: 0.21695477}
+      - {x: -0.15720735, y: 0.22587661}
+      - {x: -0.16171631, y: 0.23097348}
+      - {x: -0.17739896, y: 0.23178625}
+      - {x: -0.19526252, y: 0.23231097}
   m_UseDelaunayMesh: 0
 --- !u!114 &1403881991
 MonoBehaviour:
@@ -486,6 +507,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upForce: 200
+--- !u!95 &1403881992
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403881986}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2b9a1bfd54dcd9d4abb4e31976911962, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2076786661
 GameObject:
   m_ObjectHideFlags: 0
